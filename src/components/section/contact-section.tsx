@@ -3,6 +3,12 @@ import { FlickeringGrid } from "@/components/magicui/flickering-grid";
 import { DATA } from "@/data/resume";
 
 export default function ContactSection() {
+  const contactLink = DATA.contact.social.LinkedIn?.url || 
+                      DATA.contact.social.WhatsApp?.url || 
+                      `mailto:${DATA.contact.email}`;
+  const contactPlatform = DATA.contact.social.LinkedIn?.url ? "LinkedIn" : 
+                            DATA.contact.social.WhatsApp?.url ? "WhatsApp" : "Email";
+
   return (
     <div className="border rounded-xl p-10 relative">
       <div className="absolute -top-4 border bg-primary z-10 rounded-xl px-4 py-1 left-1/2 -translate-x-1/2">
@@ -24,14 +30,14 @@ export default function ContactSection() {
           Get in Touch
         </h2>
         <p className="mx-auto max-w-lg text-muted-foreground text-balance">
-          Want to chat? Just shoot me a dm{" "}
+          Want to chat? Just shoot me a message{" "}
           <Link
-            href={DATA.contact.social.X.url}
+            href={contactLink}
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
           >
-            with a direct question on twitter
+            on {contactPlatform}
           </Link>{" "}
           and I&apos;ll respond whenever I can. I will ignore all
           soliciting.
@@ -40,4 +46,5 @@ export default function ContactSection() {
     </div>
   );
 }
+
 

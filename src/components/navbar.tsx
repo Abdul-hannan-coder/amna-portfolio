@@ -8,6 +8,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
+import { cn } from "@/lib/utils";
 
 export default function Navbar() {
   return (
@@ -56,7 +57,12 @@ export default function Navbar() {
                     target={isExternal ? "_blank" : undefined}
                     rel={isExternal ? "noopener noreferrer" : undefined}
                   >
-                    <DockIcon className="rounded-3xl cursor-pointer size-full bg-background p-0 text-muted-foreground hover:text-foreground hover:bg-muted backdrop-blur-3xl border border-border transition-colors">
+                    <DockIcon className={cn(
+                      "rounded-3xl cursor-pointer size-full bg-background p-0 backdrop-blur-3xl border border-border transition-all duration-200",
+                      name.toLowerCase() === "whatsapp"
+                        ? "text-emerald-500 hover:text-emerald-600 hover:bg-emerald-500/10 dark:text-emerald-400 dark:hover:text-emerald-300"
+                        : "text-muted-foreground hover:text-foreground hover:bg-muted"
+                    )}>
                       <IconComponent className="size-full rounded-sm overflow-hidden object-contain" />
                     </DockIcon>
                   </a>

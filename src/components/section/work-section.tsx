@@ -11,12 +11,16 @@ import { DATA } from "@/data/resume";
 import { ChevronDown, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
+import Markdown from "react-markdown";
+
 function LogoImage({ src, alt }: { src: string; alt: string }) {
   const [imageError, setImageError] = useState(false);
 
   if (!src || imageError) {
     return (
-      <div className="size-8 md:size-10 p-1 border rounded-full shadow ring-2 ring-border bg-muted flex-none" />
+      <div className="size-8 md:size-10 border rounded-full shadow ring-2 ring-border bg-muted flex-none flex items-center justify-center font-bold text-xs text-muted-foreground uppercase">
+        {alt ? alt[0] : ""}
+      </div>
     );
   }
 
@@ -49,17 +53,17 @@ export default function WorkSection() {
                     <span className="relative inline-flex items-center w-3.5 h-3.5">
                       <ChevronRight
                         className={cn(
-                          "absolute h-3.5 w-3.5 shrink-0 text-muted-foreground stroke-2 transition-all duration-300 ease-out",
-                          "translate-x-0 opacity-0",
-                          "group-hover:translate-x-1 group-hover:opacity-100",
-                          "group-data-[state=open]:opacity-0 group-data-[state=open]:translate-x-0"
+                           "absolute h-3.5 w-3.5 shrink-0 text-muted-foreground stroke-2 transition-all duration-300 ease-out",
+                           "translate-x-0 opacity-0",
+                           "group-hover:translate-x-1 group-hover:opacity-100",
+                           "group-data-[state=open]:opacity-0 group-data-[state=open]:translate-x-0"
                         )}
                       />
                       <ChevronDown
                         className={cn(
-                          "absolute h-3.5 w-3.5 shrink-0 text-muted-foreground stroke-2 transition-all duration-200",
-                          "opacity-0 rotate-0",
-                          "group-data-[state=open]:opacity-100 group-data-[state=open]:rotate-180"
+                           "absolute h-3.5 w-3.5 shrink-0 text-muted-foreground stroke-2 transition-all duration-200",
+                           "opacity-0 rotate-0",
+                           "group-data-[state=open]:opacity-100 group-data-[state=open]:rotate-180"
                         )}
                       />
                     </span>
@@ -76,8 +80,8 @@ export default function WorkSection() {
               </div>
             </div>
           </AccordionTrigger>
-          <AccordionContent className="p-0 ml-13 text-xs sm:text-sm text-muted-foreground">
-            {work.description}
+          <AccordionContent className="p-0 ml-13 text-xs sm:text-sm text-muted-foreground prose dark:prose-invert max-w-full">
+            <Markdown>{work.description}</Markdown>
           </AccordionContent>
         </AccordionItem>
       ))}

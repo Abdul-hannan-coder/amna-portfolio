@@ -1,0 +1,381 @@
+{
+    "meta": {
+        "version": "1.0.0",
+        "lastUpdated": "2026-08-21",
+        "locale": "en"
+    },
+    "personal": {
+        "name": "Amna Shaukat",
+        "firstName": "Amna",
+        "lastName": "Shaukat",
+        "title": "AI/ML Engineer",
+        "subtitle": "RAG • AI Automation • Chatbot Development",
+        "avatar": "/images/amna.jpg",
+        "resumeUrl": "/Amna_Shaukat_AI_ML_CV.pdf",
+        "location": {
+            "city": "Dubai",
+            "country": "United Arab Emirates",
+            "address": "Mubashira 4, Dubai",
+            "visaStatus": "Resident",
+            "relocation": "Open to remote and on-site roles in the UAE"
+        },
+        "availability": {
+            "status": "available",
+            "label": "Available for freelance & full-time roles",
+            "workTypes": [
+                "Full-time",
+                "Contract",
+                "Freelance",
+                "Remote"
+            ]
+        }
+    },
+    "hero": {
+        "greeting": "Hi, I'm Amna",
+        "headline": "I build AI systems that actually ship.",
+        "typewriter": [
+            "AI/ML Engineer",
+            "RAG & LLM Applications",
+            "Chatbot Development",
+            "Workflow Automation with n8n"
+        ],
+        "tagline": "I build RAG-powered assistants and automate business workflows using n8n and Make.com to turn manual tasks into systems that run themselves.",
+        "primaryCta": {
+            "label": "View My Work",
+            "href": "/#projects"
+        },
+        "secondaryCta": {
+            "label": "Download CV",
+            "href": "/Amna_Shaukat_AI_ML_CV.pdf"
+        }
+    },
+    "about": {
+        "heading": "About Me",
+        "shortBio": "I am an AI/ML Engineer based in Dubai. I build chatbots, RAG systems, and workflow automations to help businesses connect language models to their data and automate daily operations.",
+        "paragraphs": [
+            "I'm an AI/ML Engineer based in Dubai, specializing in machine learning, natural language processing, and automation. My focus is practical: I build models and pipelines that solve specific business problems, connect with the tools you already use, and run reliably on their own.",
+            "I work on both custom machine learning models and applied AI. On the ML side, I build classification, regression, and computer vision models for tasks like fraud detection, price forecasting, and facial emotion recognition. On the applied AI side, I create RAG systems, customer-support chatbots, intent classifiers, and CV screening tools that process unstructured text into structured databases.",
+            "To make these systems useful, I integrate them directly into existing workflows. Using n8n, Make.com, and REST APIs, I connect AI capabilities with WhatsApp, Telegram, Google Workspace, and email to ensure the automation runs exactly where your team already works.",
+            "My background in HR and content strategy gives me a unique advantage. I spent years doing the exact manual tasks I now automate, like screening CVs, tracking invoices, and managing content schedules. I am also a Certified Associate in Project Management (CAPM), which means I focus on scoping, communicating, and delivering projects on time."
+        ],
+        "highlights": [
+            "RAG pipelines and LLM-powered assistants",
+            "NLP: intent detection, document/CV screening, text classification",
+            "End-to-end automation on n8n and Make.com",
+            "WhatsApp, Telegram, Google Workspace and REST API integrations",
+            "Classical ML: regression, classification, computer vision"
+        ]
+    },
+    "stats": [
+        {
+            "label": "AI/ML Projects Built",
+            "value": 7,
+            "suffix": "+"
+        },
+        {
+            "label": "Automation Platforms",
+            "value": 2,
+            "suffix": ""
+        },
+        {
+            "label": "Years in Tech & Business",
+            "value": 10,
+            "suffix": "+"
+        },
+        {
+            "label": "Certifications",
+            "value": 5,
+            "suffix": ""
+        }
+    ],
+    "services": [
+        {
+            "id": "rag-systems",
+            "title": "RAG & LLM Applications",
+            "icon": "database",
+            "description": "Retrieval-augmented generation systems that ground language models in your own documents, policies, and product data to ensure answers are accurate, sourced, and current."
+        },
+        {
+            "id": "chatbots",
+            "title": "Chatbot & AI Agent Development",
+            "icon": "message-circle",
+            "description": "Customer-service agents and conversational assistants deployed to WhatsApp, Telegram, and web, complete with intent detection, escalation rules, and human handoff."
+        },
+        {
+            "id": "automation",
+            "title": "AI Workflow Automation",
+            "icon": "workflow",
+            "description": "n8n and Make.com workflows that connect your tools, trigger on real events, and remove the manual steps between them, managing notifications, tracking, reminders, and reporting."
+        },
+        {
+            "id": "nlp",
+            "title": "NLP & Document Intelligence",
+            "icon": "file-search",
+            "description": "CV screening, job-description matching, intent classification, and text extraction pipelines that turn unstructured documents into structured decisions."
+        },
+        {
+            "id": "ml-models",
+            "title": "Machine Learning Models",
+            "icon": "brain-circuit",
+            "description": "Predictive and classification models for pricing, risk, fraud, and forecasting, running from data cleaning and feature engineering through evaluation and deployment."
+        },
+        {
+            "id": "integrations",
+            "title": "API Integrations",
+            "icon": "plug",
+            "description": "Connecting AI to the systems you already run, including Google Sheets and Drive, messaging platforms, CRMs, and custom REST APIs."
+        }
+    ],
+    "skills": [
+        "Python",
+        "n8n",
+        "Make.com",
+        "PostgreSQL",
+        "Docker",
+        "Git",
+        "scikit-learn",
+        "TensorFlow",
+        "OpenCV",
+        "Pandas",
+        "NumPy",
+        "REST APIs"
+    ],
+    "experience": [
+        {
+            "id": "ai-ml-engineer",
+            "role": "AI/ML Engineer",
+            "company": "Freelance / Independent",
+            "companyUrl": "",
+            "logoUrl": "",
+            "type": "Full-time",
+            "location": "Dubai, UAE",
+            "startDate": "2023",
+            "endDate": null,
+            "current": true,
+            "description": "I design, build, and deploy custom AI systems, RAG pipelines, and workflow automations. My focus is on connecting language models to business databases and automating manual operations.",
+            "points": [
+                "I built RAG pipelines that ground LLM responses in client documentation and knowledge bases",
+                "I developed AI customer-service agents with intent detection and automated response routing",
+                "I delivered NLP solutions for CV screening and job-description matching",
+                "I architected end-to-end automations in n8n and Make.com across messaging, storage, and email platforms",
+                "I integrated WhatsApp and Telegram APIs for conversational delivery and notifications",
+                "I built supervised ML models for prediction, classification, and fraud detection",
+                "I automated Google Sheets and Drive workflows for tracking, reporting, and record-keeping"
+            ],
+            "technologies": [
+                "Python",
+                "NLP",
+                "RAG",
+                "n8n",
+                "Make.com",
+                "Telegram API",
+                "WhatsApp API",
+                "Google Workspace APIs"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "id": "ms-hrm",
+            "degree": "MS — Human Resources Management",
+            "institution": "University of Management & Technology",
+            "location": "Lahore, Pakistan",
+            "logoUrl": "",
+            "period": "2014 — 2016",
+            "startYear": 2014,
+            "endYear": 2016
+        },
+        {
+            "id": "web-designing",
+            "degree": "Web Designing",
+            "institution": "Aptech",
+            "location": "Lahore, Pakistan",
+            "logoUrl": "",
+            "period": "2016",
+            "startYear": 2016,
+            "endYear": 2016
+        },
+        {
+            "id": "bba-hrm",
+            "degree": "BBA (Hons) — Human Resource Management",
+            "institution": "UET Lahore",
+            "location": "Lahore, Pakistan",
+            "logoUrl": "",
+            "period": "2009 — 2013",
+            "startYear": 2009,
+            "endYear": 2013,
+            "grade": "CGPA 3.34 / 4.0"
+        },
+        {
+            "id": "icom",
+            "degree": "I.Com",
+            "institution": "Lahore College for Women University",
+            "location": "Lahore, Pakistan",
+            "logoUrl": "",
+            "period": "2007 — 2009",
+            "startYear": 2007,
+            "endYear": 2009
+        }
+    ],
+    "certifications": [
+        {
+            "id": "capm",
+            "name": "Certified Associate in Project Management (CAPM)",
+            "issuer": "Project Management Institute",
+            "year": 2013,
+            "credentialId": "",
+            "credentialUrl": ""
+        },
+        {
+            "id": "pm-skills",
+            "name": "Project Management Skills for Life",
+            "issuer": "",
+            "year": null,
+            "credentialId": "",
+            "credentialUrl": ""
+        },
+        {
+            "id": "customer-service",
+            "name": "Customer Service Excellence",
+            "issuer": "",
+            "year": null,
+            "credentialId": "",
+            "credentialUrl": ""
+        },
+        {
+            "id": "motivation",
+            "name": "Discover Yourself Through Motivation",
+            "issuer": "",
+            "year": null,
+            "credentialId": "",
+            "credentialUrl": ""
+        }
+    ],
+    "awards": [
+        {
+            "id": "student-ambassador",
+            "title": "Student Ambassador",
+            "organization": "Hestia Tec",
+            "year": null
+        },
+        {
+            "id": "pmi-member",
+            "title": "Member",
+            "organization": "Project Management Institute (PMI)",
+            "year": null
+        },
+        {
+            "id": "sector-incharge",
+            "title": "Sector In-Charge",
+            "organization": "",
+            "year": null
+        },
+        {
+            "id": "doodle-troodle",
+            "title": "Organizer — \"Doodle Troodle\"",
+            "organization": "UET Techno Fest",
+            "year": null
+        },
+        {
+            "id": "lums-olympiad",
+            "title": "Recognition Award for Speed Filming",
+            "organization": "LUMS Olympiad",
+            "year": null
+        }
+    ],
+    "interests": [
+        {
+            "name": "Reading Books",
+            "icon": "book-open"
+        },
+        {
+            "name": "AI Research & Papers",
+            "icon": "microscope"
+        },
+        {
+            "name": "Building Side Automations",
+            "icon": "zap"
+        }
+    ],
+    "contact": {
+        "heading": "Let's build something",
+        "subheading": "Have a workflow that's eating your team's time, or an AI idea that needs a builder? I'd like to hear about it.",
+        "email": "amna.shaukat2023@gmail.com",
+        "phone": "+92 302 1234012",
+        "location": "Dubai, United Arab Emirates",
+        "formEndpoint": "",
+        "responseTime": "Usually replies within 24 hours"
+    },
+    "social": [
+        {
+            "id": "email",
+            "label": "Email",
+            "icon": "mail",
+            "url": "mailto:amna.shaukat2023@gmail.com"
+        },
+        {
+            "id": "linkedin",
+            "label": "LinkedIn",
+            "icon": "linkedin",
+            "url": ""
+        },
+        {
+            "id": "github",
+            "label": "GitHub",
+            "icon": "github",
+            "url": ""
+        },
+        {
+            "id": "whatsapp",
+            "label": "WhatsApp",
+            "icon": "message-circle",
+            "url": "https://wa.me/923021234012"
+        }
+    ],
+    "navigation": [
+        {
+            "label": "Home",
+            "href": "/#home"
+        },
+        {
+            "label": "About",
+            "href": "/#about"
+        },
+        {
+            "label": "Services",
+            "href": "/#services"
+        },
+        {
+            "label": "Skills",
+            "href": "/#skills"
+        },
+        {
+            "label": "Projects",
+            "href": "/#projects"
+        },
+        {
+            "label": "Experience",
+            "href": "/#experience"
+        },
+        {
+            "label": "Contact",
+            "href": "/#contact"
+        }
+    ],
+    "seo": {
+        "title": "Amna Shaukat — AI/ML Engineer | RAG, Chatbots & AI Automation",
+        "description": "AI/ML Engineer in Dubai building RAG systems, conversational AI agents, and n8n workflow automations. Machine learning, NLP, and API integration for real business problems.",
+        "keywords": [
+            "AI Engineer Dubai",
+            "Machine Learning Engineer",
+            "RAG Developer",
+            "Chatbot Developer",
+            "n8n Automation Expert",
+            "NLP Engineer",
+            "AI Workflow Automation",
+            "Make.com Consultant"
+        ],
+        "ogImage": "/images/og-amna-shaukat.png",
+        "siteUrl": "https://amnashaukat.com"
+    }
+}

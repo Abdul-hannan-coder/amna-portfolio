@@ -1,0 +1,417 @@
+{
+    "meta": {
+        "version": "1.0.0",
+        "lastUpdated": "2026-08-21",
+        "total": 7
+    },
+    "categories": [
+        {
+            "id": "all",
+            "label": "All Projects"
+        },
+        {
+            "id": "nlp",
+            "label": "NLP & LLM"
+        },
+        {
+            "id": "automation",
+            "label": "Automation"
+        },
+        {
+            "id": "machine-learning",
+            "label": "Machine Learning"
+        },
+        {
+            "id": "computer-vision",
+            "label": "Computer Vision"
+        }
+    ],
+    "projects": [
+        {
+            "id": "freelancersdesk",
+            "slug": "freelancersdesk-n8n-automation",
+            "title": "FreelancersDesk",
+            "subtitle": "n8n Workflow Automation Suite",
+            "category": "automation",
+            "tags": [
+                "n8n",
+                "Telegram API",
+                "Google Sheets",
+                "Automation",
+                "LinkedIn API"
+            ],
+            "featured": true,
+            "order": 1,
+            "year": 2024,
+            "status": "completed",
+            "role": "Solo Builder for architecture, workflow design, and integrations",
+            "duration": "",
+            "client": "",
+            "githubUrl": "",
+            "liveUrl": "",
+            "tagline": "I built an end-to-end operations assistant for freelancers to automate job discovery, proposal drafting, payment tracking, and personal branding, all running on autopilot.",
+            "description": "I built a connected suite of n8n workflows to run the operational side of freelancing. It finds remote jobs, drafts proposals, tracks applications in Google Sheets, monitors payments, sends invoice reminders, and posts updates to LinkedIn.",
+            "problem": "Freelancers lose hours every week to work that isn't billable: scanning job boards, writing near-identical proposals, remembering which client still owes money, and keeping a professional presence alive online. None of it is hard — it's just constant.",
+            "solution": "I built a chain of n8n workflows that treats the whole freelance pipeline as one system. Jobs are fetched and scored automatically and pushed to Telegram with a ready proposal attached. A single tap logs the application to Google Sheets, which then becomes the source of truth for payment tracking and reminder emails. A separate workflow reads project progress and turns it into a weekly LinkedIn post.",
+            "features": [
+                "Fetches remote job listings and pushes them straight to Telegram as direct notifications",
+                "Each notification bundles a job link, a match score, and a pre-drafted proposal",
+                "One-tap 'Applied' action writes the job details into Google Sheets",
+                "Tracks paid vs. unpaid clients across the full project ledger",
+                "Sends polite, automated follow-up emails for outstanding invoices",
+                "Monitors project progress and generates weekly LinkedIn career posts"
+            ],
+            "techStack": [
+                "n8n",
+                "Telegram Bot API",
+                "Google Sheets API",
+                "Gmail / SMTP",
+                "LinkedIn",
+                "Webhooks",
+                "REST APIs"
+            ],
+            "outcomes": [
+                "Removed manual job-board scanning from the daily routine",
+                "Made invoice follow-up consistent instead of dependent on memory",
+                "Kept a weekly publishing cadence with no manual writing"
+            ],
+            "image": "/images/projects/freelancersdesk.png",
+            "gallery": [],
+            "links": {
+                "live": "",
+                "github": "",
+                "caseStudy": "",
+                "demo": ""
+            }
+        },
+        {
+            "id": "cv-screening",
+            "slug": "ai-cv-screening",
+            "title": "AI CV Screening & JD Matching",
+            "subtitle": "NLP Document Intelligence",
+            "category": "nlp",
+            "tags": [
+                "NLP",
+                "Resume Parsing",
+                "Semantic Matching",
+                "Recruitment",
+                "Python"
+            ],
+            "featured": true,
+            "order": 2,
+            "year": 2024,
+            "status": "completed",
+            "role": "AI/ML Engineer responsible for the parsing pipeline, matching logic, and scoring",
+            "duration": "",
+            "client": "",
+            "githubUrl": "",
+            "liveUrl": "",
+            "tagline": "I built an NLP system that reads a stack of resumes and ranks candidates against the job description in seconds.",
+            "description": "I developed an NLP system that parses unstructured resumes, extracts skills, experience, and education into a structured profile, then scores each candidate against a target job description using semantic similarity rather than brittle keyword matching.",
+            "problem": "Manual CV screening is slow, inconsistent, and biased toward whoever happens to be at the top of the pile. Keyword filters fail the moment a candidate writes 'PyTorch' where the JD says 'deep learning frameworks'.",
+            "solution": "I designed a pipeline that extracts text from mixed-format CVs, normalizes it, and semantically compares candidate profiles to the job description so related terminology matches. The system provides a ranked score with matching details to give recruiters an instant shortlist.",
+            "features": [
+                "Parses PDF and document-format CVs into structured candidate profiles",
+                "Extracts skills, work history, education, and contact details",
+                "Semantic matching against job descriptions — not literal keyword overlap",
+                "Ranked candidate scoring with match explanation",
+                "Bulk processing for high-volume roles",
+                "Exportable shortlists for handoff to hiring managers"
+            ],
+            "techStack": [
+                "Python",
+                "NLP",
+                "Embeddings",
+                "Text Extraction",
+                "scikit-learn",
+                "Pandas"
+            ],
+            "outcomes": [
+                "Cut first-pass screening from hours to minutes",
+                "Made ranking consistent across every candidate in a batch",
+                "Surfaced qualified candidates that keyword filters missed"
+            ],
+            "image": "/images/projects/cv-screening.png",
+            "gallery": [],
+            "links": {
+                "live": "",
+                "github": "",
+                "caseStudy": "",
+                "demo": ""
+            }
+        },
+        {
+            "id": "customer-intent-detection",
+            "slug": "customer-intent-detection",
+            "title": "Customer Intent Detection",
+            "subtitle": "NLP Classification + Automated Support",
+            "category": "nlp",
+            "tags": [
+                "NLP",
+                "Intent Classification",
+                "Chatbot",
+                "Customer Support",
+                "Automation"
+            ],
+            "featured": true,
+            "order": 3,
+            "year": 2024,
+            "status": "completed",
+            "role": "AI/ML Engineer responsible for the classifier, response routing, and API integration",
+            "duration": "",
+            "client": "",
+            "githubUrl": "",
+            "liveUrl": "",
+            "tagline": "I developed an NLP classification model that identifies what a customer wants from their message to either answer it or route it to the right person.",
+            "description": "I built an intent-classification system that reads inbound customer messages, identifies the underlying request, and triggers the right automated response. Ambiguous or high-stakes messages are escalated to a human instead of being answered badly.",
+            "problem": "Support inboxes are dominated by a handful of repeated questions, but they arrive phrased a hundred different ways. Teams either answer them all manually or deploy a rigid bot that frustrates everyone.",
+            "solution": "I trained an intent classifier on labelled support conversations and wired it into an automated response layer. High-confidence intents get an instant, accurate answer; low-confidence or sensitive ones get flagged and handed to a human with the predicted intent attached as context.",
+            "features": [
+                "Multi-class intent classification across common support categories",
+                "Confidence thresholding with automatic human escalation",
+                "Automated response generation for recognised intents",
+                "Handles varied phrasing, typos, and informal language",
+                "Deployable to WhatsApp, Telegram, and web chat",
+                "Logs predictions for ongoing model improvement"
+            ],
+            "techStack": [
+                "Python",
+                "NLP",
+                "Text Classification",
+                "scikit-learn",
+                "WhatsApp API",
+                "Telegram Bot API"
+            ],
+            "outcomes": [
+                "Automated resolution of repetitive, high-volume queries",
+                "Reduced first-response time on common requests",
+                "Gave agents pre-classified context on escalated tickets"
+            ],
+            "image": "/images/projects/intent-detection.png",
+            "gallery": [],
+            "links": {
+                "live": "",
+                "github": "",
+                "caseStudy": "",
+                "demo": ""
+            }
+        },
+        {
+            "id": "bank-fraud-detection",
+            "slug": "bank-fraud-detection",
+            "title": "Bank Fraud Detection",
+            "subtitle": "Imbalanced Classification",
+            "category": "machine-learning",
+            "tags": [
+                "Machine Learning",
+                "Classification",
+                "Fintech",
+                "Anomaly Detection",
+                "Python"
+            ],
+            "featured": true,
+            "order": 4,
+            "year": 2023,
+            "status": "completed",
+            "role": "ML Engineer responsible for feature engineering, modeling, and evaluation",
+            "duration": "",
+            "client": "",
+            "githubUrl": "",
+            "liveUrl": "",
+            "tagline": "I built a model that catches the rare fraudulent transaction hiding inside millions of legitimate ones.",
+            "description": "I trained a supervised classification model that flags potentially fraudulent bank transactions in real time, built around the core difficulty of fraud detection: the positive class is vanishingly rare, and both false positives and false negatives are expensive in different ways.",
+            "problem": "Fraud makes up a tiny fraction of transactions, so a model that predicts 'legitimate' every time still scores high accuracy while being completely useless. Meanwhile, over-flagging blocks real customers and erodes trust.",
+            "solution": "I engineered transactional and behavioural features, applied class-imbalance handling, and evaluated on precision-recall rather than raw accuracy. The decision threshold is tunable, so the business can choose where it wants to sit on the trade-off between missed fraud and customer friction.",
+            "features": [
+                "Feature engineering from transaction amount, timing, and behavioural patterns",
+                "Class-imbalance handling via resampling and class weighting",
+                "Model comparison across multiple classification algorithms",
+                "Precision-recall and ROC-AUC evaluation rather than accuracy alone",
+                "Tunable decision threshold for business risk appetite",
+                "Feature-importance analysis for explainability"
+            ],
+            "techStack": [
+                "Python",
+                "scikit-learn",
+                "Pandas",
+                "NumPy",
+                "Matplotlib",
+                "Seaborn"
+            ],
+            "outcomes": [
+                "Reliable detection of the minority fraud class",
+                "Explainable flags rather than black-box rejections",
+                "Threshold controls that let risk teams set their own balance"
+            ],
+            "image": "/images/projects/fraud-detection.png",
+            "gallery": [],
+            "links": {
+                "live": "",
+                "github": "",
+                "caseStudy": "",
+                "demo": ""
+            }
+        },
+        {
+            "id": "facial-emotion-recognition",
+            "slug": "facial-emotion-recognition",
+            "title": "Facial Emotion Recognition",
+            "subtitle": "Computer Vision",
+            "category": "computer-vision",
+            "tags": [
+                "Computer Vision",
+                "Deep Learning",
+                "CNN",
+                "Image Classification",
+                "Python"
+            ],
+            "featured": false,
+            "order": 5,
+            "year": 2023,
+            "status": "completed",
+            "role": "ML Engineer responsible for the data pipeline, model training, and evaluation",
+            "duration": "",
+            "client": "",
+            "githubUrl": "",
+            "liveUrl": "",
+            "tagline": "I built a convolutional neural network to read emotional states from facial expressions.",
+            "description": "I developed a computer vision model that classifies facial expressions into emotion categories from image input, covering the full pipeline from face detection and preprocessing through CNN training and evaluation.",
+            "problem": "Emotion is signalled through subtle, overlapping facial cues, and image data varies wildly in lighting, angle, and resolution. Naive models collapse the moment conditions shift.",
+            "solution": "I built a preprocessing pipeline that detects and normalises faces before they reach the model, then trained a convolutional network with augmentation to survive real-world variation in lighting and pose.",
+            "features": [
+                "Face detection and cropping preprocessing stage",
+                "Image normalisation and data augmentation",
+                "CNN architecture for multi-class emotion classification",
+                "Confusion-matrix analysis across emotion categories",
+                "Support for both static image and webcam frame input"
+            ],
+            "techStack": [
+                "Python",
+                "TensorFlow / Keras",
+                "OpenCV",
+                "NumPy",
+                "CNN"
+            ],
+            "outcomes": [
+                "Robust classification across varied lighting and pose",
+                "Per-emotion performance breakdown for targeted improvement"
+            ],
+            "image": "/images/projects/emotion-recognition.png",
+            "gallery": [],
+            "links": {
+                "live": "",
+                "github": "",
+                "caseStudy": "",
+                "demo": ""
+            }
+        },
+        {
+            "id": "house-price-prediction",
+            "slug": "house-price-prediction",
+            "title": "House Price Prediction",
+            "subtitle": "Regression Modelling",
+            "category": "machine-learning",
+            "tags": [
+                "Machine Learning",
+                "Regression",
+                "Real Estate",
+                "Feature Engineering",
+                "Python"
+            ],
+            "featured": false,
+            "order": 6,
+            "year": 2023,
+            "status": "completed",
+            "role": "ML Engineer responsible for exploratory data analysis, feature engineering, and model tuning",
+            "duration": "",
+            "client": "",
+            "githubUrl": "",
+            "liveUrl": "",
+            "tagline": "I built regression models to predict property values from location, size, and condition, identifying which factors drive the price.",
+            "description": "I designed a regression model that estimates residential property prices from structural, locational, and condition-based features, with emphasis on interpretability so the prediction can be justified rather than just produced.",
+            "problem": "Property pricing depends on dozens of interacting factors, and raw housing data is messy — missing values, skewed distributions, and categorical variables everywhere.",
+            "solution": "I ran thorough exploratory data analysis, handled missing and skewed data, encoded categorical features, and compared several regression approaches with cross-validation before tuning the strongest performer.",
+            "features": [
+                "Exploratory data analysis with correlation and distribution profiling",
+                "Missing-value imputation and outlier treatment",
+                "Categorical encoding and feature scaling",
+                "Model comparison: linear, tree-based, and ensemble regressors",
+                "Cross-validation and hyperparameter tuning",
+                "Feature-importance ranking for price drivers"
+            ],
+            "techStack": [
+                "Python",
+                "scikit-learn",
+                "Pandas",
+                "NumPy",
+                "Matplotlib",
+                "Seaborn"
+            ],
+            "outcomes": [
+                "Accurate price estimates with quantified error margins",
+                "Clear ranking of which features most influence value"
+            ],
+            "image": "/images/projects/house-price.png",
+            "gallery": [],
+            "links": {
+                "live": "",
+                "github": "",
+                "caseStudy": "",
+                "demo": ""
+            }
+        },
+        {
+            "id": "employee-salary-prediction",
+            "slug": "employee-salary-prediction",
+            "title": "Employee Salary Prediction",
+            "subtitle": "HR Analytics",
+            "category": "machine-learning",
+            "tags": [
+                "Machine Learning",
+                "Regression",
+                "HR Analytics",
+                "People Data",
+                "Python"
+            ],
+            "featured": false,
+            "order": 7,
+            "year": 2023,
+            "status": "completed",
+            "role": "ML Engineer responsible for data preparation, modeling, and interpretation",
+            "duration": "",
+            "client": "",
+            "githubUrl": "",
+            "liveUrl": "",
+            "tagline": "I built regression models to estimate fair compensation from experience, role, and education by leveraging my HR background.",
+            "description": "I developed a regression model predicting employee salary from role, experience, education, and workforce attributes, drawing directly on my domain expertise in HR.",
+            "problem": "Compensation decisions are often made on intuition and inconsistent benchmarks, which creates pay inequity and makes offers hard to defend.",
+            "solution": "I built a model that learns the relationship between employee attributes and compensation, giving HR teams a data-backed reference point and exposing which factors carry real weight in the existing pay structure.",
+            "features": [
+                "Data cleaning and preparation of workforce attribute data",
+                "Encoding of role, department, and education categories",
+                "Regression modelling with performance evaluation",
+                "Feature-importance analysis on compensation drivers",
+                "Benchmark output usable for offer and review decisions"
+            ],
+            "techStack": [
+                "Python",
+                "scikit-learn",
+                "Pandas",
+                "NumPy",
+                "Matplotlib"
+            ],
+            "outcomes": [
+                "Objective salary benchmarks to support HR decisions",
+                "Visibility into which attributes actually drive existing pay levels"
+            ],
+            "image": "/images/projects/salary-prediction.png",
+            "gallery": [],
+            "links": {
+                "live": "",
+                "github": "",
+                "caseStudy": "",
+                "demo": ""
+            }
+        }
+    ]
+}
