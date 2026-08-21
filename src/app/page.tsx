@@ -23,7 +23,7 @@ export default function Page() {
             <div className="gap-2 flex flex-col order-2 md:order-1">
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
-                className="text-3xl font-semibold tracking-tighter sm:text-4xl lg:text-5xl"
+                className="text-2xl sm:text-4xl lg:text-5xl font-bold tracking-tight"
                 yOffset={8}
                 text={`Hi, I'm ${DATA.name.split(" ")[0]}`}
               />
@@ -105,7 +105,7 @@ export default function Page() {
                 key={education.school}
                 delay={BLUR_FADE_DELAY * 8 + index * 0.05}
               >
-                <div className="flex items-center gap-x-3 justify-between">
+                <div className="flex flex-col sm:flex-row sm:items-center gap-y-2 justify-between w-full text-left">
                   <div className="flex items-center gap-x-3 flex-1 min-w-0">
                     {education.logoUrl ? (
                       <img
@@ -127,9 +127,9 @@ export default function Page() {
                       </div>
                     </div>
                   </div>
-                  <div className="flex items-center gap-1 text-xs tabular-nums text-muted-foreground text-right flex-none">
+                  <div className="flex items-center gap-1 text-xs tabular-nums text-muted-foreground sm:text-right flex-none sm:ml-auto pl-11 sm:pl-0">
                     <span>
-                      {education.start} - {education.end}
+                      {education.start} to {education.end}
                     </span>
                   </div>
                 </div>

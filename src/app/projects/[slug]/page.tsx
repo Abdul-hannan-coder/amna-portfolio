@@ -77,10 +77,10 @@ export default async function ProjectPage({ params }: Props) {
             <Calendar className="size-3" /> {project.year}
           </span>
         </div>
-        <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-foreground">
+        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold tracking-tight text-foreground">
           {project.title}
         </h1>
-        <p className="text-xl text-muted-foreground leading-normal font-medium">
+        <p className="text-lg md:text-xl text-muted-foreground leading-normal font-medium">
           {project.subtitle}
         </p>
       </div>

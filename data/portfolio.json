@@ -53,10 +53,7 @@
         "heading": "About Me",
         "shortBio": "I am an AI/ML Engineer based in Dubai. I build chatbots, RAG systems, and workflow automations to help businesses connect language models to their data and automate daily operations.",
         "paragraphs": [
-            "I'm an AI/ML Engineer based in Dubai, specializing in machine learning, natural language processing, and automation. My focus is practical: I build models and pipelines that solve specific business problems, connect with the tools you already use, and run reliably on their own.",
-            "I work on both custom machine learning models and applied AI. On the ML side, I build classification, regression, and computer vision models for tasks like fraud detection, price forecasting, and facial emotion recognition. On the applied AI side, I create RAG systems, customer-support chatbots, intent classifiers, and CV screening tools that process unstructured text into structured databases.",
-            "To make these systems useful, I integrate them directly into existing workflows. Using n8n, Make.com, and REST APIs, I connect AI capabilities with WhatsApp, Telegram, Google Workspace, and email to ensure the automation runs exactly where your team already works.",
-            "My background in HR and content strategy gives me a unique advantage. I spent years doing the exact manual tasks I now automate, like screening CVs, tracking invoices, and managing content schedules. I am also a Certified Associate in Project Management (CAPM), which means I focus on scoping, communicating, and delivering projects on time."
+            "I'm an AI/ML Engineer based in Dubai, specializing in building custom machine learning models, RAG systems, customer-support chatbots, and workflow automations using n8n and Make.com. My focus is practical: I design and deploy reliable pipelines that connect AI capabilities directly to your existing systems (like WhatsApp, Telegram, and Google Workspace) to turn manual workflows into automated solutions that run themselves."
         ],
         "highlights": [
             "RAG pipelines and LLM-powered assistants",

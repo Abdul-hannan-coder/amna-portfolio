@@ -121,7 +121,7 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground leading-relaxed;
   }
 
   /* Shiki dual theme support */
@@ -237,4 +237,27 @@
     @apply border-b-0;
   }
 
+}
+
+/* Custom scrollbar utility */
+.scrollbar-custom {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  height: 5px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 9999px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-foreground);
 }
