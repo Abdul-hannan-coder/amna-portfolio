@@ -1,305 +1,194 @@
 {
     "meta": {
         "version": "1.0.0",
-        "lastUpdated": "2026-08-21",
+        "lastUpdated": "2026-11-17",
         "locale": "en"
     },
     "personal": {
-        "name": "Amna Shaukat",
-        "firstName": "Amna",
-        "lastName": "Shaukat",
-        "title": "AI/ML Engineer",
-        "subtitle": "RAG • AI Automation • Chatbot Development",
-        "avatar": "/images/amna.jpg",
-        "resumeUrl": "/Amna_Shaukat_AI_ML_CV.pdf",
+        "name": "Areej Fatyma",
+        "firstName": "Areej",
+        "lastName": "Fatyma",
+        "title": "AI Automation & GoHighLevel Specialist",
+        "subtitle": "GoHighLevel • CRM Automation • AI Workflows",
+        "avatar": "/images/areej.jpg",
+        "resumeUrl": "/Areej_Fatyma_CV.pdf",
         "location": {
-            "city": "Dubai",
-            "country": "United Arab Emirates",
-            "address": "Mubashira 4, Dubai",
-            "visaStatus": "Resident",
-            "relocation": "Open to remote and on-site roles in the UAE"
+            "city": "Bahawalpur",
+            "country": "Pakistan",
+            "address": "",
+            "visaStatus": "",
+            "relocation": ""
         },
         "availability": {
             "status": "available",
             "label": "Available for freelance & full-time roles",
             "workTypes": [
                 "Full-time",
-                "Contract",
                 "Freelance",
+                "Contract",
                 "Remote"
             ]
         }
     },
     "hero": {
-        "greeting": "Hi, I'm Amna",
-        "headline": "I build AI systems that actually ship.",
+        "greeting": "Hi, I'm Areej",
+        "headline": "I automate businesses with AI and GoHighLevel.",
         "typewriter": [
-            "AI/ML Engineer",
-            "RAG & LLM Applications",
-            "Chatbot Development",
-            "Workflow Automation with n8n"
+            "AI Automation Specialist",
+            "GoHighLevel Expert",
+            "CRM & Workflow Automation",
+            "Sales Funnel Builder"
         ],
-        "tagline": "I build RAG-powered assistants and automate business workflows using n8n and Make.com to turn manual tasks into systems that run themselves.",
+        "tagline": "I build and automate booking systems, follow-up automations, and marketing pipelines using GoHighLevel, n8n, webhooks, and AI — helping businesses automate lead generation, newsletters, and content operations.",
         "primaryCta": {
             "label": "View My Work",
             "href": "/#projects"
         },
         "secondaryCta": {
             "label": "Download CV",
-            "href": "/Amna_Shaukat_AI_ML_CV.pdf"
+            "href": "/Areej_Fatyma_CV.pdf"
         }
     },
     "about": {
         "heading": "About Me",
-        "shortBio": "I am an AI/ML Engineer based in Dubai. I build chatbots, RAG systems, and workflow automations to help businesses connect language models to their data and automate daily operations.",
+        "shortBio": "I'm Areej, a Computer Science grad student with a strong interest in technology, CRM systems, and business automation. Experienced in GoHighLevel, CRM management, workflow automations, sales funnels, and third-party integrations.",
         "paragraphs": [
-            "I'm an AI/ML Engineer based in Dubai, specializing in building custom machine learning models, RAG systems, customer-support chatbots, and workflow automations using n8n and Make.com. My focus is practical: I design and deploy reliable pipelines that connect AI capabilities directly to your existing systems (like WhatsApp, Telegram, and Google Workspace) to turn manual workflows into automated solutions that run themselves."
+            "I'm Areej, a Computer Science grad student with a strong interest in technology, CRM systems, and business automation. I specialize in GoHighLevel, CRM management, workflow automations, sales funnels, and third-party integrations. Passionate about learning new technologies, solving problems, and building smart solutions that improve business processes."
         ],
         "highlights": [
-            "RAG pipelines and LLM-powered assistants",
-            "NLP: intent detection, document/CV screening, text classification",
-            "End-to-end automation on n8n and Make.com",
-            "WhatsApp, Telegram, Google Workspace and REST API integrations",
-            "Classical ML: regression, classification, computer vision"
+            "GoHighLevel CRM setup and management",
+            "Booking systems with automated confirmations and reminders",
+            "Follow-up automations and marketing pipelines",
+            "n8n workflow automations and webhook integrations",
+            "Sales funnels and lead generation automation"
         ]
     },
     "stats": [
         {
-            "label": "AI/ML Projects Built",
-            "value": 7,
+            "label": "Projects Completed",
+            "value": 1,
             "suffix": "+"
         },
         {
             "label": "Automation Platforms",
+            "value": 3,
+            "suffix": ""
+        },
+        {
+            "label": "Certifications",
             "value": 2,
             "suffix": ""
         },
         {
-            "label": "Years in Tech & Business",
-            "value": 10,
+            "label": "Years in Tech",
+            "value": 1,
             "suffix": "+"
-        },
-        {
-            "label": "Certifications",
-            "value": 5,
-            "suffix": ""
         }
     ],
     "services": [
         {
-            "id": "rag-systems",
-            "title": "RAG & LLM Applications",
-            "icon": "database",
-            "description": "Retrieval-augmented generation systems that ground language models in your own documents, policies, and product data to ensure answers are accurate, sourced, and current."
-        },
-        {
-            "id": "chatbots",
-            "title": "Chatbot & AI Agent Development",
-            "icon": "message-circle",
-            "description": "Customer-service agents and conversational assistants deployed to WhatsApp, Telegram, and web, complete with intent detection, escalation rules, and human handoff."
-        },
-        {
-            "id": "automation",
-            "title": "AI Workflow Automation",
+            "id": "ghl-automation",
+            "title": "GoHighLevel Automation",
             "icon": "workflow",
-            "description": "n8n and Make.com workflows that connect your tools, trigger on real events, and remove the manual steps between them, managing notifications, tracking, reminders, and reporting."
+            "description": "Complete GoHighLevel setup including booking systems, automated follow-ups, confirmation and reminder workflows, and marketing pipelines tailored to your business needs."
         },
         {
-            "id": "nlp",
-            "title": "NLP & Document Intelligence",
-            "icon": "file-search",
-            "description": "CV screening, job-description matching, intent classification, and text extraction pipelines that turn unstructured documents into structured decisions."
+            "id": "crm-management",
+            "title": "CRM Management",
+            "icon": "users",
+            "description": "End-to-end CRM configuration and management, including contact organization, pipeline setup, and lead tracking to streamline your sales process."
         },
         {
-            "id": "ml-models",
-            "title": "Machine Learning Models",
-            "icon": "brain-circuit",
-            "description": "Predictive and classification models for pricing, risk, fraud, and forecasting, running from data cleaning and feature engineering through evaluation and deployment."
+            "id": "workflow-automation",
+            "title": "Workflow Automation",
+            "icon": "zap",
+            "description": "Custom workflow automations using n8n, webhooks, and AI to eliminate repetitive tasks and connect your business tools into seamless, automated pipelines."
+        },
+        {
+            "id": "sales-funnels",
+            "title": "Sales Funnels & Lead Generation",
+            "icon": "trending-up",
+            "description": "Design and build high-converting sales funnels and lead generation systems that capture, nurture, and convert prospects automatically."
         },
         {
             "id": "integrations",
-            "title": "API Integrations",
+            "title": "Third-Party Integrations",
             "icon": "plug",
-            "description": "Connecting AI to the systems you already run, including Google Sheets and Drive, messaging platforms, CRMs, and custom REST APIs."
+            "description": "Connecting GoHighLevel and other platforms with third-party tools and APIs to create a unified, automated business ecosystem."
+        },
+        {
+            "id": "newsletter-automation",
+            "title": "Newsletter & Content Automation",
+            "icon": "mail",
+            "description": "Automated newsletter and content operations that keep your audience engaged with consistent, timely communications without manual effort."
         }
     ],
     "skills": [
-        "Python",
+        "GoHighLevel",
         "n8n",
-        "Make.com",
-        "PostgreSQL",
-        "Docker",
-        "Git",
-        "scikit-learn",
-        "TensorFlow",
-        "OpenCV",
-        "Pandas",
-        "NumPy",
-        "REST APIs"
+        "Webhooks",
+        "CRM Management",
+        "Sales Funnels",
+        "Workflow Automation",
+        "AI Automation",
+        "Lead Generation",
+        "Marketing Pipelines",
+        "Third-Party Integrations",
+        "HubSpot",
+        "Content Operations"
     ],
-    "experience": [
-        {
-            "id": "ai-ml-engineer",
-            "role": "AI/ML Engineer",
-            "company": "Freelance / Independent",
-            "companyUrl": "",
-            "logoUrl": "",
-            "type": "Full-time",
-            "location": "Dubai, UAE",
-            "startDate": "2023",
-            "endDate": null,
-            "current": true,
-            "description": "I design, build, and deploy custom AI systems, RAG pipelines, and workflow automations. My focus is on connecting language models to business databases and automating manual operations.",
-            "points": [
-                "I built RAG pipelines that ground LLM responses in client documentation and knowledge bases",
-                "I developed AI customer-service agents with intent detection and automated response routing",
-                "I delivered NLP solutions for CV screening and job-description matching",
-                "I architected end-to-end automations in n8n and Make.com across messaging, storage, and email platforms",
-                "I integrated WhatsApp and Telegram APIs for conversational delivery and notifications",
-                "I built supervised ML models for prediction, classification, and fraud detection",
-                "I automated Google Sheets and Drive workflows for tracking, reporting, and record-keeping"
-            ],
-            "technologies": [
-                "Python",
-                "NLP",
-                "RAG",
-                "n8n",
-                "Make.com",
-                "Telegram API",
-                "WhatsApp API",
-                "Google Workspace APIs"
-            ]
-        }
-    ],
+    "experience": [],
     "education": [
         {
-            "id": "ms-hrm",
-            "degree": "MS — Human Resources Management",
-            "institution": "University of Management & Technology",
-            "location": "Lahore, Pakistan",
+            "id": "bscs",
+            "degree": "Bachelor of Computer Science",
+            "institution": "Islamia University of Bahawalpur",
+            "location": "Bahawalpur, Pakistan",
             "logoUrl": "",
-            "period": "2014 — 2016",
-            "startYear": 2014,
-            "endYear": 2016
-        },
-        {
-            "id": "web-designing",
-            "degree": "Web Designing",
-            "institution": "Aptech",
-            "location": "Lahore, Pakistan",
-            "logoUrl": "",
-            "period": "2016",
-            "startYear": 2016,
-            "endYear": 2016
-        },
-        {
-            "id": "bba-hrm",
-            "degree": "BBA (Hons) — Human Resource Management",
-            "institution": "UET Lahore",
-            "location": "Lahore, Pakistan",
-            "logoUrl": "",
-            "period": "2009 — 2013",
-            "startYear": 2009,
-            "endYear": 2013,
-            "grade": "CGPA 3.34 / 4.0"
-        },
-        {
-            "id": "icom",
-            "degree": "I.Com",
-            "institution": "Lahore College for Women University",
-            "location": "Lahore, Pakistan",
-            "logoUrl": "",
-            "period": "2007 — 2009",
-            "startYear": 2007,
-            "endYear": 2009
+            "period": "",
+            "startYear": null,
+            "endYear": null
         }
     ],
     "certifications": [
         {
-            "id": "capm",
-            "name": "Certified Associate in Project Management (CAPM)",
-            "issuer": "Project Management Institute",
-            "year": 2013,
+            "id": "inbound-marketing",
+            "name": "Inbound Marketing",
+            "issuer": "HubSpot",
+            "year": 2026,
             "credentialId": "",
             "credentialUrl": ""
         },
         {
-            "id": "pm-skills",
-            "name": "Project Management Skills for Life",
-            "issuer": "",
-            "year": null,
-            "credentialId": "",
-            "credentialUrl": ""
-        },
-        {
-            "id": "customer-service",
-            "name": "Customer Service Excellence",
-            "issuer": "",
-            "year": null,
-            "credentialId": "",
-            "credentialUrl": ""
-        },
-        {
-            "id": "motivation",
-            "name": "Discover Yourself Through Motivation",
-            "issuer": "",
+            "id": "n8n-certification",
+            "name": "n8n Certification",
+            "issuer": "Chatbot Lab",
             "year": null,
             "credentialId": "",
             "credentialUrl": ""
         }
     ],
-    "awards": [
-        {
-            "id": "student-ambassador",
-            "title": "Student Ambassador",
-            "organization": "Hestia Tec",
-            "year": null
-        },
-        {
-            "id": "pmi-member",
-            "title": "Member",
-            "organization": "Project Management Institute (PMI)",
-            "year": null
-        },
-        {
-            "id": "sector-incharge",
-            "title": "Sector In-Charge",
-            "organization": "",
-            "year": null
-        },
-        {
-            "id": "doodle-troodle",
-            "title": "Organizer — \"Doodle Troodle\"",
-            "organization": "UET Techno Fest",
-            "year": null
-        },
-        {
-            "id": "lums-olympiad",
-            "title": "Recognition Award for Speed Filming",
-            "organization": "LUMS Olympiad",
-            "year": null
-        }
-    ],
+    "awards": [],
     "interests": [
         {
-            "name": "Reading Books",
-            "icon": "book-open"
+            "name": "Technology & AI",
+            "icon": "cpu"
         },
         {
-            "name": "AI Research & Papers",
-            "icon": "microscope"
-        },
-        {
-            "name": "Building Side Automations",
+            "name": "Business Automation",
             "icon": "zap"
+        },
+        {
+            "name": "Problem Solving",
+            "icon": "lightbulb"
         }
     ],
     "contact": {
         "heading": "Let's build something",
-        "subheading": "Have a workflow that's eating your team's time, or an AI idea that needs a builder? I'd like to hear about it.",
-        "email": "amna.shaukat2023@gmail.com",
-        "phone": "+92 302 1234012",
-        "location": "Dubai, United Arab Emirates",
+        "subheading": "Have a business process that needs automating, or a GoHighLevel project that needs a specialist? I'd love to hear about it.",
+        "email": "Areejfatyma35@gmail.com",
+        "phone": "+92 328 8503568",
+        "location": "Pakistan",
         "formEndpoint": "",
         "responseTime": "Usually replies within 24 hours"
     },
@@ -308,13 +197,13 @@
             "id": "email",
             "label": "Email",
             "icon": "mail",
-            "url": "mailto:amna.shaukat2023@gmail.com"
+            "url": "mailto:Areejfatyma35@gmail.com"
         },
         {
             "id": "linkedin",
             "label": "LinkedIn",
             "icon": "linkedin",
-            "url": ""
+            "url": "https://www.linkedin.com/in/areej-fatyma-9578a324b"
         },
         {
             "id": "github",
@@ -326,7 +215,7 @@
             "id": "whatsapp",
             "label": "WhatsApp",
             "icon": "message-circle",
-            "url": "https://wa.me/923021234012"
+            "url": "https://wa.me/923288503568"
         }
     ],
     "navigation": [
@@ -359,20 +248,51 @@
             "href": "/#contact"
         }
     ],
+    "projects": [
+        {
+            "id": "anna-burns",
+            "title": "Anna Burns Permanent Cosmetic Surgeon",
+            "subtitle": "Fully automated booking system with confirmation and reminder automations and pipelines",
+            "category": "Automation",
+            "tags": [
+                "GoHighLevel",
+                "Booking System",
+                "Automation",
+                "CRM"
+            ],
+            "year": null,
+            "role": "",
+            "problem": "The client needed an automated booking system to handle appointment scheduling, confirmations, and reminders without manual intervention.",
+            "solution": "Built a fully automated booking system with all types of confirmation and reminder automations and pipelines using GoHighLevel.",
+            "features": [
+                "Automated appointment booking system",
+                "Confirmation automations",
+                "Reminder workflows",
+                "Marketing pipelines"
+            ],
+            "technologies": [
+                "GoHighLevel"
+            ],
+            "outcomes": [],
+            "repoUrl": "",
+            "liveUrl": "",
+            "images": []
+        }
+    ],
     "seo": {
-        "title": "Amna Shaukat — AI/ML Engineer | RAG, Chatbots & AI Automation",
-        "description": "AI/ML Engineer in Dubai building RAG systems, conversational AI agents, and n8n workflow automations. Machine learning, NLP, and API integration for real business problems.",
+        "title": "Areej Fatyma — AI Automation & GoHighLevel Specialist",
+        "description": "AI Automation and GoHighLevel Specialist building automated booking systems, follow-up automations, marketing pipelines, and CRM solutions for businesses.",
         "keywords": [
-            "AI Engineer Dubai",
-            "Machine Learning Engineer",
-            "RAG Developer",
-            "Chatbot Developer",
-            "n8n Automation Expert",
-            "NLP Engineer",
-            "AI Workflow Automation",
-            "Make.com Consultant"
+            "GoHighLevel Specialist",
+            "AI Automation",
+            "CRM Automation",
+            "Booking System Automation",
+            "n8n Automation",
+            "Sales Funnel Builder",
+            "Lead Generation Automation",
+            "Workflow Automation"
         ],
-        "ogImage": "/images/og-amna-shaukat.png",
-        "siteUrl": "https://amnashaukat.com"
+        "ogImage": "/images/og-areej-fatyma.png",
+        "siteUrl": ""
     }
 }
